@@ -34,3 +34,10 @@ Acceptanskriterier: när testet klickat på delete-knappen ska det bara finnas 2
 (här används ett API!! så du kanske kommer behöva WAIT-funktionen.)
 
 5. Som användare vill jag kunna navigera mellan boknings-och bekräftelsevyn.
+---> hitta text som bekräftar att vi är på startsidan
+---> klicka på meny-ikonen
+---> klicka på bekräftelsevyn
+---> hitta text som bekräftar att vi är på bekräftelsevyn
+---> klicka på meny-ikonen
+---> klicka på bokninsvyn
+---> hitta text som bekräftar att vi är tillbaka på startsidan
