@@ -76,7 +76,7 @@ function Booking() {
     async function book() {
         if (booking.when && booking.lanes 
             && booking.time && shoes.length > 0 
-            && comparePeopleAndShoes()
+            && comparePeopleAndShoes() 
             ) {
                 const bookingInfo = {
                     when: `${booking.when}T${booking.time}`,
