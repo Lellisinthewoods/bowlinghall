@@ -23,6 +23,12 @@ Hitta och klicka på "lägg till sko"-knappen.
 Fyll i inputfältet. Upprepa.
 De två fälten ska ha värdet testet fyllt i.
 
+FELHANTERING: 
+---> fyll i inputfältet, skriv in att två personer ska bowla.
+---> lägg bara till en sko.
+---> kontrollera att felmeddelandet kommer.
+Acceptanskriterier: felmeddelandet kommer när knappen trycks på.
+
 3. Som användare vill jag kunna ta bort ett fält för skostorlek om jag råkade klicka i ett för mycket så jag inte boka skor i onödan.
 ---> klicka på "lägg till sko"-knappen tre gånger.
 ---> kontrollera att sko-inputfältet återkommer 3 gånger.
@@ -31,7 +37,10 @@ De två fälten ska ha värdet testet fyllt i.
 Acceptanskriterier: när testet klickat på delete-knappen ska det bara finnas 2 inputfält för skostorlek.
 
 4. Som användare vill jag kunna skicka iväg min reservation och få tillbaka ett ett bokningsnummer och totalsumma så jag vet hur mycket jag ska betala. (120 kr / person + 100 kr / bana).
-(här används ett API!! så du kanske kommer behöva WAIT-funktionen.)
+---> fyll i alla fält, skicka iväg reservation
+---> kontrollera att fältet med reservationstexten existerar ELLER innehåller något
+---> kontrollera att priset finns
+Acceptanskriterier: Både reservationsnumret och totalsumman hittas i DOMen.
 
 5. Som användare vill jag kunna navigera mellan boknings-och bekräftelsevyn.
 ---> hitta text som bekräftar att vi är på startsidan
@@ -41,3 +50,4 @@ Acceptanskriterier: när testet klickat på delete-knappen ska det bara finnas 2
 ---> klicka på meny-ikonen
 ---> klicka på bokninsvyn
 ---> hitta text som bekräftar att vi är tillbaka på startsidan
+Acceptanskriterier: Testet lyckas navigera sig fram och tillbaka från start- och bekräftelsesidan.
